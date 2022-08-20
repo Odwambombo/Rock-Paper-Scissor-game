@@ -2,7 +2,6 @@ let computerCount= 0;
 let playerCount = 0;
 
 function playRound(){
-try{
 
     for(let i=0; i<5; i++){
     let User = prompt('Enter Rock Paper or Scissor and press enter');
@@ -75,12 +74,8 @@ try{
     }else{
         throw 'myException'; 
     }
- }
-
  Results();
  
-}catch(err){
-    console.log('There was a error in your spelling or you Clicked cancle, Click the button to play agian!');
 }
 };
 

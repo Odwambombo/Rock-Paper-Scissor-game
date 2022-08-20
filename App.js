@@ -4,7 +4,7 @@ let playerCount = 0;
 function playRound(){
 
     for(let i=0; i<5; i++){
-    while(){
+    while(true){
     let User = prompt('Enter Rock Paper or Scissor and press enter');
     let playSelection = User.toUpperCase();
 

@@ -4,6 +4,7 @@ let playerCount = 0;
 function playRound(){
 
     for(let i=0; i<5; i++){
+    while(){
     let User = prompt('Enter Rock Paper or Scissor and press enter');
     let playSelection = User.toUpperCase();
 
@@ -70,10 +71,10 @@ function playRound(){
          }else{
             console.log('Sorry you lost better Luck next time!')
          }
+    }   
+        break; 
     }
-    }else{
-        throw 'myException'; 
-    }
+       
  Results();
  
 }
